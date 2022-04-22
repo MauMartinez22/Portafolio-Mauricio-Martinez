@@ -830,18 +830,23 @@ div.portafolio>p.title{
 /**//**//*Contacto*//**//**/
 div.contenedor{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 5rem;
     margin: 10rem .5rem;
     margin-top: 0;
 }
-div.contenedor>hr{
-    width: 30%;
-    height: 4px;
-    background-color: #b7b7b7;
+
+
+hr.div{
+    color: #06113C;
+    width: auto;
+    height: 100%;
 }
+
+
+
 h1.title{
     font-size: 5rem;
     font-weight: 400;
@@ -854,14 +859,14 @@ h1.title{
 
 div.contenedor>div.content{
     display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
+    flex-direction: row;
+    gap: 5rem;
     padding: .5rem 0;
     width: auto;
     text-align: center;
     align-items: center;
 }
-div.contenedor>div.content>h3{
+div.contenedor>div.content> div > h3{
     font-size: 1.5rem;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
@@ -869,26 +874,26 @@ div.contenedor>div.content>h3{
     color: #06113C;
 }
 
-div.contenedor>div.content>p{
+div.contenedor>div.content>div>p{
     font-size: 1.2rem;
     font-weight: 200;
     font-family: 'Poppins', sans-serif;
     font-style: italic;
 }
 
-div.contenedor>div.content>img{
+div.contenedor>div.content>div >img{
     height: 20rem;
     width: auto;
     filter: grayscale(.5);
 }
 
 
-div.contenedor>div.content2{
+div.content2{
     display: flex;
     flex-direction: row;
     gap: 3rem;
     max-width: min-content;
-    padding: .5rem 0;
+    padding: 2.5rem 0;
     width: auto;
 }
 
