@@ -846,7 +846,7 @@ div.contenedor{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
+    gap: 2rem;
     margin: 10rem .5rem;
     margin-top: 0;
 }
@@ -906,12 +906,16 @@ div.contenedor>div.content>div >img{
 div.content2{
     display: flex;
     flex-direction: row;
-    gap: 3rem;
+    gap: 1.5rem;
     max-width: min-content;
     padding: 2.5rem 0;
     width: auto;
 }
 
+img.ctc{
+    width: 2rem;
+    height: auto;
+}
 
 
 
