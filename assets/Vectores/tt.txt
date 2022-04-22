@@ -1,0 +1,748 @@
+/*/*/*/*/*/*/*/*/*/*/*/*HTML/*/*/*/*/*/*/*/*/*/*/*/*
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <title>Mauricio Martinez</title>
+</head>
+<nav>
+    <input type="checkbox" id="menu-hamburguesa">
+        <label for="menu-hamburguesa">
+            <img src="./assets/Iconos/menu-burger.png" alt="">
+        </label>
+    <ul>
+        <li>
+            <a href="">Home</a>
+        </li>
+        <li>
+            <a href="">Servicios</a>
+         </li>
+        <li>
+            <a href="">Acerca de mi</a>
+        </li>
+           <li>
+            <a href="">Mis habilidades</a>
+        </li>
+        <li>
+            <a href="">Mi portafolio</a>
+        </li>
+        <li>
+            <a href="">Contacto</a>
+        </li>
+     </ul>
+</nav>
+<body>
+
+    <div class="baner-principal">
+        <div class="part1">
+            <p class="sub-title1">Soy</p>
+            <hr>
+            <p class="title1">Mauricio</p>
+            <p class="sub-title2">Maketing <br> Diseñadr UX/UI</p>
+        </div>
+            
+        <div class="part2">
+            <div class="circulo"></div>
+            <img src="./assets/images/2.jpg" alt="" class="imgs">
+        </div>
+
+        <div class="part3">
+            <p class="sub-title1"> 3 años</p>
+            <p class="sub-title2">Experincia</p> 
+            <div class="social-img">
+                <img src="./assets/Iconos/Ing-img.png" alt="" srcset="">
+                <img src="./assets/Iconos/Lk-img.png" alt="" srcset="">
+                <img src="./assets/Iconos/Tw-img.png" alt="">
+            </div> 
+        </div>
+    </div>
+
+    <div class="padre">
+        <div class="sub-baner-principal">
+            <img src="./assets/images/akar-icons_google-fill.png" alt="">
+            <img src="./assets/images/ant-design_amazon-outlined.png" alt="">
+            <img src="./assets/images/bi_spotify.png" alt="">
+        </div>
+    </div>
+
+    <div class="abt-me">
+        <p class="title c"> Acerca de mí</p>
+        <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum exercitationem eaque quaerat, possimus earum nesciunt similique facere et qui alias rerum eius molestias quas modi ea veritatis! Sed consequaorum rerum eos earum modi dolore ad placeat fugiat perspiciatis voluptatibus alias? Officiis, neque ipsa modi expedita adipisci pariatur? Similique iste incidunt quod porro! Fuga necessitatibus minima maxime sed tempora quas, quo earum perspiciatis sequi obcaecati quia, laborum aliquid illo.</p>
+    </div>
+
+
+    <p class="tittle ser">Servicios</p>
+    <div class="servicios">
+        <img src="./assets/images/Recurso 1.png" alt="">
+        <img src="./assets/images/Recurso 2.png" alt="">
+        <img src="./assets/images/Recurso 3.png" alt="">
+    </div>
+
+    <div class="habilities">
+        <p class="title">Mis habilidades</p>
+        <div class="section">
+            <p class="title">95%</p>
+            <p class="description">Mobile app desing</p>
+        </div>
+        <div class="section">
+            <p class="title">70%</p>
+            <p class="description">Motion desing</p>
+        </div>
+        <div class="section">
+            <p class="title">90%</p>
+            <p class="description">Creacion y mantenimiento de sistemas de diselo</p>
+        </div>
+        <div class="section">
+            <p class="title">89%</p>
+            <p class="description">Gestion de Proyectos</p>
+        </div>
+    </div>    
+
+    <div class="portafolio">
+        <p class="title">Portafolio</p>
+        <div class="carrete">
+            <img src="./assets/images/image 4.jpg" alt="">
+            <img src="./assets/images/Group 47.jpg" alt="">
+            <img src="./assets/images/Rectangle 53.jpg" alt="">
+            <img src="./assets/images/Rectangle 65.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+/*/*/*/*/*/*/*/*/*/*/*/*CSS/*/*/*/*/*/*/*/*/*/*/*/*
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Raleway:ital,wght@0,200;0,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+html{
+    background-color: #1B262C;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    padding:auto;
+    margin: 2.5rem;
+    align-items: center;
+    
+}
+nav>ul{
+    width: fit-content;
+}
+
+nav>ul>li>a{
+    font-weight: 450;
+    align-content: flex-end;
+    font-size: 23px;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    box-sizing: content-box;
+    
+    
+}
+nav>ul>li>a:hover{
+    align-content: flex-end;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(12, 148, 197);
+    transition:  ease 400ms;
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+    
+    
+}
+nav>ul>li{
+    list-style: none;
+    text-decoration: none;
+    padding: 0rem;
+    justify-content: space-between;
+
+}
+
+
+input#menu-hamburguesa{
+    visibility: hidden;
+}
+
+input#menu-hamburguesa ~ ul{
+    backdrop-filter: blur(2.5px);
+    background-color: rgba(46, 46, 46, 0.392);
+    border-radius: 15px;
+    list-style: none;
+    position: absolute;
+    width: 30vmax;
+    height: calc( 100vh - 290px );
+    top: 78px;
+    right: 100%;
+    z-index: 1;
+    transition:all 900ms ease-in;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2.5rem;
+    padding: 2rem 0rem;
+}
+
+input#menu-hamburguesa:checked ~ ul{
+    right: 0;
+}
+
+
+
+
+
+
+
+/*baner principal*/
+
+
+div.baner-principal{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    margin: 0 1rem;
+    flex-direction: row; 
+    gap: 0rem ;
+    
+}
+
+div.baner-principal>div.part1{
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0px ;
+    justify-content: left;
+    flex-direction: column;
+    gap: .5rem;
+}
+div.baner-principal>div.part2{
+    width: auto;
+    height: auto;
+    margin: 0rem;
+    padding: 0px;
+    align-items: left;
+    position: relative;
+}
+.imgs{
+    height: 60vh;
+    width: 20vw;
+}
+
+div.baner-principal>div.part3{
+    width: auto;
+    height: auto;
+    margin:0rem;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+div.baner-principal>div.part1>p.sub-title1{
+    font-size: 8vmax;
+    color: #ffffff;
+}
+div.baner-principal>div.part1>p.title1{
+    color: #00909E;
+    font-size: 9vmax;
+    font-weight: bold;
+}
+div.baner-principal>div.part1>p.sub-title2{
+    color: #ffffff;
+    font-size: 5vmax;
+}
+div.baner-principal>div.part1>hr{
+    height: 5px;
+    width: 90%;
+    background-color: #C9D1D3;
+    margin: 0.9rem 0 0rem 0;
+
+}
+div.baner-principal>div.part3>div.social-img{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem ;
+}
+div.baner-principal>div.part3>div.social-img>img{
+    height: 7vh;
+    
+  }
+
+div.baner-principal>div.part3>p.sub-title1{
+    color: #00909E;
+    font-size: 7vmax;
+}
+div.baner-principal>div.part3>p.sub-title2{
+    color: aliceblue;
+    font-size: 5vmax;
+}
+
+
+
+
+
+
+/*Sub baner principal*/
+div.padre{
+    display: flex;
+    justify-content: center;
+}
+
+.sub-baner-principal{
+    background-color: #71717150;
+    display: flex;
+    justify-content: center;
+    margin: 5% 5%;
+    gap: 5vw;
+    border-radius: 15px;
+    height: auto;
+    width: 99%;
+}
+
+div.padre>div.sub-baner-principal>img{
+    padding: .8rem 4rem;
+    height:10vmax;
+    background-color: #ffffff;
+    border-radius: 9px;
+    margin: 2rem 0rem;
+}
+
+
+
+
+
+
+/*Acerca de mi*/
+
+div.abt-me{
+    margin: 10vh 15vw ;
+    text-align: center;
+}
+
+div.abt-me>p.title{
+    font-size: 6vh;
+    color: #00909E;
+    margin-bottom: 5vh;    
+}
+
+div.abt-me>p.parrafo{
+    font-size: 150%;
+    color: #ffffff;
+    font-weight: 100;
+}
+
+
+
+
+/*Servicios*/
+
+div.servicios{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    margin: 3rem 8vw 8vh 8vw;
+    gap: 5vw;
+}
+
+div.servicios>img{
+    width:auto;
+    height:auto;
+}
+
+p.tittle.ser{
+    border-top: 8vh;
+    text-align: center;
+    font-size: 6vh;
+    color: #00909E;
+}
+
+
+
+
+/*habilidades*/
+
+div.habilities{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 7rem 8vw 8vh 8vw;
+    padding: 5rem;
+    gap: 2rem;
+    
+
+}
+div.habilities>div.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 7rem;
+    align-items: center;
+}
+div.habilities>div.section>p.title{
+    font-size: 60px;
+    color: #00909E; 
+    font-weight: 700;
+}
+div.habilities>div.section>p.description{
+    font-size: 40px;
+    color: #ffffff; 
+    font-weight: 100;
+}
+div.habilities>p.title{
+    font-size: 6vh;
+    color: #00909E;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+
+
+/*Portafolio*/
+
+div.portafolio{
+    margin: 7rem 0rem 10rem 15rem;
+}
+div.portafolio>div.carrete{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    overflow: scroll;
+}
+div.portafolio>p.title{
+    font-size: 6vh;
+    color: #00909E;
+    text-align: center;
+    padding-bottom: 3rem;
+    margin: 5rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            /*MEDIA QUARY*/
+
+
+@media only screen and ( min-width: 600px ){
+    label{
+        display: none;
+    }
+
+    input#menu-hamburguesa ~ ul{
+        position: static;
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        justify-content: flex-end;
+        transition: none;
+        text-align: end;
+
+    }
+
+    nav > ul > li{
+        display: flex;
+       
+        /*margin-left: 1rem;*/
+    }
+    
+    nav > ul > li > a{
+        color: #ffffff;
+        text-decoration: none;
+        padding: .5rem 1rem;
+        border-bottom: 2px solid transparent;
+        width: max-content;
+        
+    }
+    
+    nav > ul > li > a:hover{
+       animation: alternate;
+    }
+
+
+
+
+}
+
+
+@media only screen and ( max-width: 600px ){
+        
+    div.baner-principal{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        height: auto;
+        margin: 0 0rem;
+        flex-direction: row; 
+        gap: 1rem ;
+        margin-left: 10px;
+    }
+    div.baner-principal>div.part1{
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0px ;
+        justify-content: left;
+        flex-direction: column;
+        gap: .5rem;
+    }
+    div.baner-principal>div.part2{
+        width: auto;
+        height: auto;
+        margin: 0rem;
+        padding: 0px;
+        align-items: left;
+        position: relative;
+    }
+    .imgs{
+        width: 400px;
+        height: 500px;
+    }
+    
+    div.baner-principal>div.part3{
+        width: auto;
+        height: auto;
+        margin:0rem;
+        padding: 0px;
+    }
+
+    div.baner-principal>div.part1>p.sub-title1{
+        font-size: 220%;
+        color: #ffffff;
+    }
+    div.baner-principal>div.part1>p.title1{
+        color: #00909E;
+        font-size: 330%;
+        font-weight: bold;
+    }
+    div.baner-principal>div.part1>p.sub-title2{
+        color: #ffffff;
+        font-size: 150%;
+    }
+    div.baner-principal>div.part1>hr{
+        height: 5px;
+        width: 60%;
+        background-color: #ffffff;
+        margin: 0.9rem 0 0rem 0;
+    
+    }
+    div.baner-principal>div.part1>hr{
+        height: 2px;
+        width: 60%;
+        background-color: #ffffff;
+        margin: 0.3rem 0 0rem 0;
+    
+    }
+    .circulo {
+        width: 100px;
+        height: 100px;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background: #5cb85c;
+        z-index: -1;
+        position: absolute;
+        align-self: center;
+        display: none;
+   }
+    .imgs{
+        width:200px;
+        height: 200px;
+        z-index: 1;
+        position: absolute;
+
+    }
+    div.baner-principal>div.part3>*{
+    /*font-family: 'Raleway', sans-serif;*/
+    }
+
+    div.baner-principal>div.part3>p.sub-title1{
+        color: #00909E;
+        font-size: 230%;
+    }
+    div.baner-principal>div.part3>p.sub-title2{
+        color: aliceblue;
+        font-size: 180%;
+    }
+
+    div.baner-principal>div.part3>div.social-img{
+        display: flex;
+        flex-direction: row;
+        gap: .5rem ;
+      }
+
+      div.baner-principal>div.part3>div.social-img>img{
+          height: 5vh;
+      }
+
+
+
+
+
+/*Sub baner principal*/
+div.padre{
+    display: flex;
+    justify-content: center;
+}
+
+.sub-baner-principal{
+    background-color: #71717150;
+    display: flex;
+    justify-content: center;
+    margin: 3% 5%;
+    gap: 7%;
+    border-radius: 13px;
+    height: auto;
+    width: 99%;
+}
+
+div.padre>div.sub-baner-principal>img{
+    padding: .8rem 5vw;
+    height: 14vh;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin: .8rem 0%;
+}
+
+
+
+
+
+
+/*Acerca de mi*/
+
+div.abt-me{
+    margin: 5vh 15vw ;
+    text-align: justify;
+}
+
+div.abt-me>p.title{
+    font-size: 6vh;
+    color: #00909E;
+    margin-bottom: 5vh;
+    margin-left: 5vw;    
+}
+
+
+div.abt-me>p.c{
+  text-align: center;
+}
+
+div.abt-me>p.parrafo{
+    font-size: 120%;
+    color: #ffffff;
+    font-weight: 100;
+}
+
+
+
+
+
+
+/*Servicios*/
+
+div.servicios{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    margin-top: 3vh;
+    gap: 5vw;
+    overflow-y: hidden;
+    padding-left: 50%;
+
+}
+
+
+p.tittle.ser{
+    border-top: 3vh;
+    text-align: center;
+    font-size: 6vh;
+    color: #00909E;
+}
+
+
+div.servicios>img{
+    opacity: 1;
+}
+
+
+
+
+/*habilidades*/
+
+div.habilities{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 7rem 8vw 8vh 8vw;
+    padding: 5rem;
+    gap: 2rem;
+    
+
+}
+div.habilities>div.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 7rem;
+    align-items: center;
+}
+div.habilities>div.section>p.title{
+    font-size: 60px;
+    color: #00909E; 
+    font-weight: 700;
+}
+div.habilities>div.section>p.description{
+    font-size: 25px;
+    color: #ffffff; 
+    font-weight: 100;
+    width: max-content;
+}
+div.habilities>p.title{
+    font-size: 6vh;
+    color: #00909E;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
