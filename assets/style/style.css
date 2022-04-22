@@ -838,11 +838,13 @@ div.contenedor{
     margin-top: 0;
 }
 
-
-hr.div{
-    color: #06113C;
-    width: auto;
-    height: 100%;
+div.contenedor>div.content> hr{
+    border: 2px solid rgb(70, 70, 70);
+    border-radius: 0px;
+    height: 25rem;
+    color: rgb(70, 70, 70);
+    background-color: rgb(70, 70, 70);
+    opacity:0.3;
 }
 
 
