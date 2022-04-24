@@ -741,7 +741,7 @@ div.contenedor{
   flex-wrap: wrap;
   min-height: 20vh;
   width: 80%;
-	gap: 2rem;
+  gap: 2rem;
 }
 
 
@@ -755,6 +755,8 @@ div.contenedor{
   padding: 0px;
   margin: .5rem;
   transition: all 450ms ease;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #17171749;
 }
 .box>img {
  position: absolute;
